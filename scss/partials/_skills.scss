@@ -1,0 +1,103 @@
+#skills {
+	margin-top: 80px;
+	text-align: center;
+	font-family: $font-family_1;
+	color: $color_3;
+	h1 {
+		color: $color_5;
+		font-family: $font-family_2;
+	}
+	a {
+		color: $color_3;
+	}
+}
+.naslov {
+	a {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: $color_3;
+		font-family: $font-family_4;
+		&:hover {
+			box-shadow: 0px 10px 30px 10px lightpink;
+		}
+	}
+}
+.skills {
+	background-color: $background-color_8;
+	width: 220px;
+	height: 300px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 80px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	p {
+		margin-top: 20px;
+		margin: 20px 10px 0px 10px;
+	}
+	img {
+		margin: 10px;
+	}
+	&:hover {
+		color: $color_6;
+		text-shadow: 2px 2px 4px #0000002f;
+		background: none;
+		box-shadow: 0px 5px 40px -10px rgba(241, 61, 151, 0.644);
+		transition: all 0.3s ease 0s;
+	}
+}
+.skills2 {
+	background-color: $background-color_8;
+	width: 220px;
+	height: 300px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 80px;
+	position: relative;
+	bottom: 20px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	p {
+		margin-top: 20px;
+		margin: 20px 10px 0px 10px;
+	}
+	img {
+		margin: 10px;
+	}
+	&:hover {
+		color: $color_6;
+		text-shadow: 2px 2px 4px #0000002f;
+		background: none;
+		box-shadow: 0px 5px 40px -10px rgba(241, 61, 151, 0.644);
+		transition: all 0.3s ease 0s;
+	}
+}
+.skills3 {
+	background-color: $background-color_8;
+	width: 220px;
+	height: 300px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 80px;
+	position: relative;
+	bottom: 40px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	p {
+		margin-top: 20px;
+		margin: 20px 10px 0px 10px;
+	}
+	img {
+		margin: 10px;
+	}
+	&:hover {
+		color: $color_6;
+		text-shadow: 2px 2px 4px #0000002f;
+		background: none;
+		box-shadow: 0px 5px 40px -10px rgba(241, 61, 151, 0.644);
+		transition: all 0.3s ease 0s;
+	}
+}

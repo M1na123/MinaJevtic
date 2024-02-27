@@ -1,0 +1,9 @@
+@import url("./partials/_variables.scss");
+@import url("./partials/_header.scss");
+@import url("./partials/_home.scss");
+@import url("./partials/_skills.scss");
+@import url("./partials/_services.scss");
+@import url("./partials/_projects.scss");
+@import url("./partials/_about.scss");
+@import url("./partials/_contact.scss");
+@import url("./partials/_footer.scss");
