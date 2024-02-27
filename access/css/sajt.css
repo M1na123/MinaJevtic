@@ -6,32 +6,32 @@
 
 @font-face {
   font-family: Satisfy;
-  src: url('./Satisfy/Satisfy-Regular.ttf');
+  src: url('./access/Satisfy/Satisfy-Regular.ttf');
 }
 
 @font-face {
   font-family: Nanum_Myeongjo;
-  src: url('./Nanum_Myeongjo/NanumMyeongjo-Regular.ttf');
+  src: url('./access/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf');
 }
 
 @font-face {
   font-family: Karla;
-  src: url('./Karla/Karla-Italic-VariableFont_wght.ttf');
+  src: url('./access/Karla/Karla-Italic-VariableFont_wght.ttf');
 }
 
 @font-face {
   font-family: Montserrat;
-  src: url('./Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+  src: url('./access/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
 }
 
 @font-face {
   font-family: Roboto-light;
-  src: url('./Roboto/Roboto-Light.ttf');
+  src: url('./access/Roboto/Roboto-Light.ttf');
 }
 
 @font-face {
   font-family: Dosis;
-  src: url('./Dosis/Dosis/Dosis-VariableFont_wght.ttf');
+  src: url('./access/Dosis/Dosis/Dosis-VariableFont_wght.ttf');
 }
 
 ul {
