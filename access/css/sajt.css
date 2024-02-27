@@ -824,9 +824,6 @@ textarea::placeholder {
   #slova {
     bottom: 35vh;
   }
-  #footer{
-    height: 30vh;
-  }
 }
 
 @media screen and (max-width: 380px) {
