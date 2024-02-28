@@ -1,5 +1,5 @@
-.container {
-	max-width: 500px;
+.contact {
+	max-width: 25vw;
 	margin: 50px auto;
 	background-color: $background-color_10;
 	border-radius: 10px;
@@ -8,7 +8,7 @@
 }
 h1 {
 	text-align: center;
-	color: $color_7;
+	color: $color_8;
 }
 .contact-form {
 	margin-top: 20px;
@@ -18,7 +18,7 @@ h1 {
 	label {
 		display: block;
 		margin-bottom: 5px;
-		color: $color_8;
+		color: $color_9;
 		font-size: 16px;
 	}
 	input {
@@ -39,7 +39,7 @@ h1 {
 	}
 	input[type="submit"] {
 		background-color: $background-color_9;
-		color: $color_9;
+		color: $color_10;
 		border: none;
 		padding: 10px 20px;
 		border-radius: 5px;
@@ -54,13 +54,13 @@ h1 {
 }
 input {
 	&::placeholder {
-		color: $color_10;
-		font-family: $font-family_7;
+		color: $color_11;
+		font-family: $font-family_6;
 	}
 }
 textarea {
 	&::placeholder {
-		color: $color_10;
-		font-family: $font-family_7;
+		color: $color_11;
+		font-family: $font-family_6;
 	}
 }
