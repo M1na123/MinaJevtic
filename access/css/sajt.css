@@ -661,22 +661,15 @@ textarea::placeholder {
 
   #about img {
     width: 18vw;
-    margin: 204px 188px 40px 150px
+    margin: 74px 188px 40px 150px
   }
-
-
-}
-
-@media screen and (max-width: 1390px) {
   .skills2 img {
     height: 70px;
     width: 70px;
   }
-  #about img {
-    margin: 214px 188px 40px 150px;
-  }
 
 }
+
 
 @media screen and (max-width: 1228px) {
   #header {
