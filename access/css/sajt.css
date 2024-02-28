@@ -815,17 +815,16 @@ textarea::placeholder {
     top: -23px;
   }
 }
-@media screen and (max-width:390px) {
-  #slova {
-    bottom: 45vh;
-  }
-}
 @media screen and (max-width: 408px) {
   #slova {
-    bottom: 35vh;
+    bottom: 30vh;
   }
 }
-
+@media screen and (max-width:391px) {
+  #slova {
+    bottom: 40vh;
+  }
+}
 @media screen and (max-width: 380px) {
   #slova .wrapper {
     display: flex;
