@@ -285,7 +285,7 @@ body {
 
 .skills2 {
   background-color: white;
-  width: 25vw;
+  width: 13vw;
   display: inline-block;
   margin: 80px 20px 0 20px;
   position: relative;
@@ -344,7 +344,7 @@ body {
 }
 
 .firstDiv {
-  width: 25vw;
+  width: 13vw;
   background-color: white;
   display: inline-block;
   border-radius: 10px;
@@ -491,7 +491,7 @@ body {
   width: 18vw;
   height: 60vh;
   float: left;
-  margin: 200px 190px 40px 150px;
+  margin: 3px 190px 40px 150px;
   border-radius: 20px;
 }
 
