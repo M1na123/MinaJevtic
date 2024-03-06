@@ -726,8 +726,14 @@ textarea::placeholder {
 @media only screen and (max-width: 963px) {
   #header img {
     margin-left: 0;
-
   }
+  .skills2 img {
+    height: 50px;
+    width: 50px;
+}
+  .firstDiv img{
+    height: 50px;
+    width: 50px;
 }
 
 @media screen and (max-width:620px) {
