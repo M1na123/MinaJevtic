@@ -48,7 +48,7 @@ $background-color_11: #ff5eab;
 }
 @font-face {
 	font-family: Dosis;
-	src: url('./access/webfontkit-20240228-064528/dosis-variablefont_wght-webfont.woff');
+	src: url('./access/Dosis/Dosis');
 }
 * {
 	margin: 0;
