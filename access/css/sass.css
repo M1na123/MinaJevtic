@@ -1254,7 +1254,7 @@ textarea {
 
 	#slova {
 		right: unset;
-		left: 3vw;
+		left: 2.5vw;
 	}
         .wrapper .icon {
                padding: 17px;
@@ -1274,7 +1274,7 @@ textarea {
 
 @media screen and (max-width:360px) {
 	#slova {
-		bottom: 12vh;
+		bottom: 13.2vh;
 	}
         .wrapper .icon {
                  padding: 16px;
