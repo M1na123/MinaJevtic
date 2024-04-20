@@ -732,7 +732,7 @@ span {
 	}
 }
 
-.container {
+.contact {
 	max-width: 500px;
 	margin: 50px auto;
 	background-color: $background-color_10;
@@ -1156,7 +1156,7 @@ textarea {
 	}
 
 	#header ul {
-		margin-right: 70px;
+		margin-right: 30px;
 	}
 
 	#header li {
@@ -1193,7 +1193,7 @@ textarea {
 
 	#header img {
 		width: 20vw;
-		margin-right: 60px;
+		margin-right: 20px;
 
 	}
 
@@ -1256,7 +1256,9 @@ textarea {
 		right: unset;
 		left: 3vw;
 	}
-
+        .wrapper .icon {
+               padding: 17px;
+        }
 	.project-item img {
 		width: 210px;
 		height: 22vh;
