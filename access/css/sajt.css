@@ -6,32 +6,32 @@
 
 @font-face {
   font-family: Satisfy;
-  src: url('./access/Satisfy/Satisfy-Regular.ttf');
+  src: url('./Satisfy/Satisfy-Regular.ttf');
 }
 
 @font-face {
   font-family: Nanum_Myeongjo;
-  src: url('./access/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf');
+  src: url('./Nanum_Myeongjo/NanumMyeongjo-Regular.ttf');
 }
 
 @font-face {
   font-family: Karla;
-  src: url('./access/Karla/Karla-Italic-VariableFont_wght.ttf');
+  src: url('./Karla/Karla-Italic-VariableFont_wght.ttf');
 }
 
 @font-face {
   font-family: Montserrat;
-  src: url('./access/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+  src: url('./Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
 }
 
 @font-face {
   font-family: Roboto-light;
-  src: url('./access/Roboto/Roboto-Light.ttf');
+  src: url('./Roboto/Roboto-Light.ttf');
 }
 
 @font-face {
   font-family: Dosis;
-  src: url('./access/Dosis/Dosis');
+  src: url('./Dosis/Dosis/Dosis-VariableFont_wght.ttf');
 }
 
 ul {
@@ -58,7 +58,7 @@ body {
 
 #header ul {
   font-size: 20px;
-  margin-left:400px;
+
 }
 
 #header * {
@@ -286,7 +286,7 @@ body {
 
 .skills2 {
   background-color: white;
-  width: 13vw;
+  width: 20vw;
   display: inline-block;
   margin: 80px 20px 0 20px;
   position: relative;
@@ -345,15 +345,16 @@ body {
 }
 
 .firstDiv {
-  width: 13vw;
+  width: 25vw;
   background-color: white;
   display: inline-block;
   border-radius: 10px;
   margin: 20px 20px 0 20px;
+  padding: 10px;
 }
 .firstDiv p{
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 17px;
 }
 .firstDiv h1 {
   font-size: 1.4rem;
@@ -391,6 +392,7 @@ body {
   display: flex;
   font-family: Montserrat;
   justify-content: center;
+ 
 }
 
 .project-item {
@@ -449,15 +451,13 @@ body {
 }
 
 .aboutFirst {
-  padding-top: 8vh;
+
 }
 
 .aboutText {
   display: flex;
   flex-direction: column;
-  row-gap: 2vh;
   align-items: flex-start;
-  margin-right: 10vh;
 }
 
 .aboutText p {
@@ -492,7 +492,7 @@ body {
   width: 18vw;
   height: 60vh;
   float: left;
-  margin: 3px 190px 40px 150px;
+  margin: 200px 190px 40px 150px;
   border-radius: 20px;
 }
 
@@ -622,20 +622,24 @@ textarea::placeholder {
   }
 
   #slova {
-    bottom: 20vh;
+    left: 800px;
   }
 
   #about img {
     width: 15vw;
     height: 52vh;
   }
+  
 }
 
 @media screen and (max-width: 1440px) {
   #slova {
-    bottom: 30vh;
+    bottom: 20vh;
+    left: 800px;
   }
-
+  #header a {
+    padding: 10px 10px;
+  }
   #home img {
     height: 70vh;
   }
@@ -662,15 +666,22 @@ textarea::placeholder {
 
   #about img {
     width: 18vw;
-    margin: 74px 188px 40px 150px
+    margin: 204px 188px 40px 150px
   }
+
+
+}
+
+@media screen and (max-width: 1390px) {
   .skills2 img {
     height: 70px;
     width: 70px;
   }
+  #about img {
+    margin: 214px 188px 40px 150px;
+  }
 
 }
-
 
 @media screen and (max-width: 1228px) {
   #header {
@@ -704,7 +715,7 @@ textarea::placeholder {
   }
 
   #skills h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   #about p {
@@ -719,22 +730,14 @@ textarea::placeholder {
     margin: 117px 128px 89px 150px;
   }
 
-  .contact {
-    max-width: 55vw;
-  }
+
 }
 
 @media only screen and (max-width: 963px) {
   #header img {
     margin-left: 0;
+
   }
-  .skills2 img {
-    height: 50px;
-    width: 50px;
-}
-  .firstDiv img{
-    height: 50px;
-    width: 50px;
 }
 
 @media screen and (max-width:620px) {
@@ -815,9 +818,17 @@ textarea::placeholder {
     top: -23px;
   }
 }
+@media screen and (max-width:390px) {
+  #slova {
+    bottom: 45vh;
+  }
+}
 @media screen and (max-width: 408px) {
   #slova {
     bottom: 35vh;
+  }
+  #footer{
+    height: 30vh;
   }
 }
 
