@@ -1285,6 +1285,9 @@ textarea {
        #about p {
                margin: 27px 30px 15px 0px;
       }
+      .wrapper .tooltip{
+	      font-size: 10px;
+      }
 }
 
 @media screen and (max-width:333px) {
