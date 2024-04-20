@@ -1278,6 +1278,9 @@ textarea {
        .aboutText{
 	       margin-left:9vh;
        }
+       #about p {
+               margin: 27px 30px 15px 0px;
+      }
 }
 
 @media screen and (max-width:333px) {
