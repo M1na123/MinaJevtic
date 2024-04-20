@@ -1219,7 +1219,7 @@ textarea {
 
 @media screen and (max-width: 408px) {
 	#slova {
-		bottom: 10vh;
+		bottom: 15vh;
 
 		left: 20px;
 	}
