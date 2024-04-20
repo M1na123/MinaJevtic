@@ -1275,7 +1275,9 @@ textarea {
 		bottom: 10vh;
 
 	}
-
+       .aboutText{
+	       margin-left:9vh;
+       }
 }
 
 @media screen and (max-width:333px) {
