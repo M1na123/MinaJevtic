@@ -1212,7 +1212,7 @@ textarea {
 
 @media screen and (max-width:390px) {
 	#slova {
-		bottom: 10vh;
+		bottom: 15vh;
 
 	}
 }
@@ -1274,8 +1274,10 @@ textarea {
 
 @media screen and (max-width:360px) {
 	#slova {
-		bottom: 10vh;
-
+		bottom: 15vh;
+	}
+        .wrapper .icon {
+                 padding: 16px;
 	}
        .aboutText{
 	       margin-left:9vh;
